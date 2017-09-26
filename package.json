@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Simple module to use the Honeycomb batch API",
   "main": "index.js",
+  "repository": "https://github.com/Sandyman/honey-batch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
