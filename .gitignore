@@ -63,4 +63,4 @@ typings/
 *~
 
 # WebStorm
-idea/
+.idea/
