@@ -9,7 +9,7 @@ class Honey {
      */
     constructor(options) {
         this.dataSet = options.dataSet;
-        this.disabled = !!options.disabled || !this.writeKey || !this.dataSet;
+        this.disabled = !!options.disabled || !options.writeKey || !options.dataSet;
         this.endpoint = options.endpoint || Honey.ApiEndpoint;
         this.writeKey = options.writeKey;
         this.clearEvents();
